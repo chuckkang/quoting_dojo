@@ -1,0 +1,10 @@
+body {
+	background-color: lightgrey;
+	margin: auto;
+}
+
+#wrapper {
+	border:2px solid black;
+	margin: auto;
+
+}

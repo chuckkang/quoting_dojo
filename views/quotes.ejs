@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="/static/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<div id="wrapper">
+	Quotes page:
+	<% for (var x in pagecontent) {%>
+		<div>
+			<h2><%=pagecontent[x].name%></h2>
+			<h3><%=pagecontent[x].quote%></h3>
+			<h3>
+				<%=pagecontent[x].date%>
+			</h3>
+		</div>
+	<%} %>
+	</div>
+</body>
+
+</html>
